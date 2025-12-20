@@ -6,8 +6,8 @@ function registerAgentEvents(socket) {
     // store in DB if needed
   });
 
-  socket.on("pong", (data) => {
-    console.log("Pong from agent:", data);
+  socket.on("agent_alive", (data) => {
+    console.log("alve:", data);
     // store in DB if needed
   });
 
